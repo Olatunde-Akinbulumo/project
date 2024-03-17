@@ -1,4 +1,5 @@
 # This program calculates the value of each menu and calculates the total stock
+
 menu = ['chips', 'fish', 'chicken', 'burger']
 # The menu and their quantity
 stock = {'chips': 15, 'fish': 6, 'chicken': 7, 'burger': 8}
@@ -12,3 +13,4 @@ for item in menu:
     total_cost += item_cost
     print(item, "-", item_cost,"Pounds")
 print("Total_stock:", total_cost,"Pounds")
+
